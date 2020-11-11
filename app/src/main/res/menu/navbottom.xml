@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/news"
+            android:enabled="true"
+            android:title="NEWS"
+            android:icon="@drawable/news64"/>
+
+        <item
+            android:id="@+id/team"
+            android:enabled="true"
+            android:title="TEAMS"
+            android:icon="@drawable/team64"/>
+
+        <item
+            android:id="@+id/schedule"
+            android:enabled="true"
+            android:title="STATS"
+            android:icon="@drawable/schedule64"/>
+
+        <item
+            android:id="@+id/bet"
+            android:enabled="true"
+            android:title="BET EVENTS"
+            android:icon="@drawable/betevents64"/>
+
+</menu>

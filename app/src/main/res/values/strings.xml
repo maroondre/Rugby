@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aus Style Rugby</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_player_tab">PlayerTab</string>
+    <string name="tab_text_1">Team Players</string>
+    <string name="tab_text_2">All Players</string>
+</resources>

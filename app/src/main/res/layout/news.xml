@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/bungeeregular">
+        </TextView>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:fontFamily="@font/poppinsregular">
+        </TextView>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/anticdidoneregular">
+        </TextView>
+
+                <TextView
+                    android:id="@+id/source"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Source"
+                    android:layout_weight="0.5"
+                    android:gravity="start"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/poppinsregular"/>
+                <TextView
+                    android:id="@+id/news"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Source >>"
+                    android:gravity="end"
+                    android:layout_weight="0.5"
+                    android:textColor="#D30000"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsregular"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
