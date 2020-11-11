@@ -53,7 +53,7 @@ public class Team extends AppCompatActivity {
     {
         calls = new Calling(Team.this);
         pdLoading = new ProgressDialog(this);
-        pdLoading.setMessage("\tPlease Wait...");
+        pdLoading.setMessage("\tPlease Wait ..");
         pdLoading.setCancelable(false);
         pdLoading.show();
         rView = findViewById(R.id.tView);
